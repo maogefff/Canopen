@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Canopen</string>
+
+    <string name="DeviceType">Device type 设备类型</string>
+    <string name="ErrorRegister">Error register 错误寄存器</string>
+    <string name="ManufacturerStatusRegister">Manufacturer status register 制造商状态寄存器</string>
+    <string name="PredefinedrerrorField">Pre-defined error field 预定义错误场</string>
+    <string name="COB_IDSyncMessage">COB-ID Sync message 同步报文 COB 标识符</string>
+    <string name="CommunicationCyclePeriod">Communication cycle period 同步通信循环周期（单位 us）</string>
+    <string name="SynchronousWindowsLlength">Synchronous windows length 同步窗口长度(单位 us)</string>
+    <string name="ManufacturerDeviceName">Manufacturer device name 制造商设备名称</string>
+
+
+</resources>

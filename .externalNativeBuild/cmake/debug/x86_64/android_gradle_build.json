@@ -1,0 +1,56 @@
+
+{
+	"buildFiles" : [ "E:/test/Canopen/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\software\\Android\\Androidstudio2.3sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\test\\Canopen\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"Canopen-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "Canopen-lib",
+			"buildCommand" : "D:\\software\\Android\\Androidstudio2.3sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\test\\Canopen\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target Canopen-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=D:/software/Android/Androidstudio2.3sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/Android/Androidstudio2.3sdk/ndk-bundle/sysroot  -DCanopen_lib_EXPORTS -isystem D:\\software\\Android\\Androidstudio2.3sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\Android\\Androidstudio2.3sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem D:\\software\\Android\\Androidstudio2.3sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/Android/Androidstudio2.3sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/test/Canopen/app/src/main/cpp/Canopencommand.cpp",
+					"workingDirectory" : "E:/test/Canopen/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "E:/test/Canopen/app/build/intermediates/cmake/debug/obj/x86_64/libCanopen-lib.so",
+			"toolchain" : "1752052531"
+		},
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\software\\Android\\Androidstudio2.3sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\test\\Canopen\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=D:/software/Android/Androidstudio2.3sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/Android/Androidstudio2.3sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem D:\\software\\Android\\Androidstudio2.3sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\Android\\Androidstudio2.3sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem D:\\software\\Android\\Androidstudio2.3sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/Android/Androidstudio2.3sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/test/Canopen/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/test/Canopen/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "E:/test/Canopen/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1752052531"
+		}
+	},
+	"toolchains" : 
+	{
+		"1752052531" : 
+		{
+			"cCompilerExecutable" : "D:/software/Android/Androidstudio2.3sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/software/Android/Androidstudio2.3sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
